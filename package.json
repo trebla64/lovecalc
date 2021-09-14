@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/trebla64/lovecalc/issues"
   },
-  "homepage": "https://github.com/trebla64/lovecalc#readme"
+  "homepage": "https://github.com/trebla64/lovecalc#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
