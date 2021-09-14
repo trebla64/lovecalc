@@ -38,6 +38,7 @@ app.get("/lovecalc", (req, res) => {
         // Just copy this character instead of adding
         tempArray.push(reductionArray[firstIndex]);
       } else {
+        // Add the first and last character together
         tempArray.push(reductionArray[firstIndex] + reductionArray[lastIndex]);
       }
       firstIndex++;
